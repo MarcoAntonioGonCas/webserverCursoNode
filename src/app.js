@@ -32,6 +32,7 @@ app.get("/elements", (req, res) => {
         nombre:"Marco Antonio",
         titulo:"hola"})
 })
+app.get("*",)
 
 
 app.get("*",(req,res)=>{
